@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+}
+
+.slide.hide {
+  display: none;
+}
+
+.slide div {
+  padding: 40px;
+  text-align: center;
+  color: white;
+  font-style: 2rem;
+  user-select: none;
+}
